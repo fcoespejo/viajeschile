@@ -9,3 +9,11 @@ body {
     color: #ffffff;
     font-family:'Roboto', sans-serif
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.navbar a {
+    font-family: 'Roboto', sans-serif
+}
