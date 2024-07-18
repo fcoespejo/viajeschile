@@ -4,6 +4,7 @@
     border: 0;
     font-family:'Roboto', sans-serif;
     color: #ffffff;
+    font-weight: 300;
 }
 
 html {
@@ -15,23 +16,22 @@ html {
 }
 
 h2 {
-    font-weight: 300;
     font-family: 'Roboto', sans-serif;
     padding-top: 3rem;
 }
 
 #quienes_somos {
-    background-color: #000000; 
+    background-color: #000000;
+    padding-bottom: 1rem;
 }
 
 .icons_section {
     font-weight: 300;
-    background-color: #00838f;
+    /* background-color: #00838f; */
 }
 
 #destacados {
     background-color: #000000;
-    font-weight: 300;
     padding-bottom: 1rem;
 }
 
@@ -46,8 +46,27 @@ h2 {
 
 form{
     background-color: #000000;
+    padding-bottom: 3rem;
 }
 
 #formulario {
     background-color: #000000;
+}
+
+footer ul {
+        list-style-type: none;
+        overflow: hidden;
+        margin: 0;
+}
+
+li a {
+    display: inline-block;
+    padding: 1rem;
+  }
+
+footer .text-uppercase {
+    width: 250px;
+    padding: 1rem;
+    float: left;
+    margin: auto;
 }
