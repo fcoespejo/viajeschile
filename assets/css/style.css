@@ -2,12 +2,8 @@
     margin: 0;
     padding: 0;
     border: 0;
-}
-
-body {
-    background-color: #000000;
+    font-family:'Roboto', sans-serif;
     color: #ffffff;
-    font-family:'Roboto', sans-serif
 }
 
 html {
@@ -16,4 +12,21 @@ html {
 
 .navbar a {
     font-family: 'Roboto', sans-serif
+}
+
+h2 {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 2rem;
+    border-bottom: #ffffff solid;
+    
+}
+
+#quienes_somos {
+    background-color: #000000; 
+}
+
+.icons_section {
+    font-weight: 300;
+    background-color: #00838f;
 }
