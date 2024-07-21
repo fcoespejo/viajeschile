@@ -8,10 +8,6 @@
     background-color: transparent;
 }
 
-html {
-    scroll-behavior: smooth;
-  }
-
 .navbar a {
     font-family: 'Roboto', sans-serif
 }
@@ -61,7 +57,7 @@ li a {
     padding: 1rem;
   }
 
-footer .text-uppercase {
+  footer .text-uppercase {
     width: 250px;
     padding: 1rem;
     float: left;
