@@ -5,6 +5,7 @@
     font-family:'Roboto', sans-serif;
     color: #ffffff;
     font-weight: 300;
+    background-color: transparent;
 }
 
 html {
@@ -25,23 +26,19 @@ h2 {
     padding-bottom: 1rem;
 }
 
-.icons_section {
-    font-weight: 300;
-    /* background-color: #00838f; */
-}
-
 #destacados {
     background-color: #000000;
     padding-bottom: 1rem;
 }
 
 .card img {
-    height: 140px;
+    height: 9rem;
 }
 
 .card {
     min-height: 25rem;
     margin-bottom: 2rem;
+    opacity: 0,6;
 }
 
 form{
@@ -70,3 +67,9 @@ footer .text-uppercase {
     float: left;
     margin: auto;
 }
+
+/* Estilo de los enlaces al pasar el cursor en barra de navegación*/
+.navbar a:hover {
+	background-color:darkcyan; 
+	color: white;
+    }
