@@ -12,6 +12,11 @@
     font-family: 'Roboto', sans-serif
 }
 
+nav img{
+    width: 30px;
+    height: 24px;
+}
+
 h2 {
     font-family: 'Roboto', sans-serif;
     padding-top: 3rem;
